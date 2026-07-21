@@ -11,14 +11,12 @@
         content="Sad Vampire. Same eternal pain. Different century. Coming soon."
     >
 
-    <meta name="theme-color" content="#120018">
+    <meta name="theme-color" content="#09040f">
 
-    <!-- Favicons -->
     <link rel="icon" href="favicon.ico" sizes="any">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
 
-    <!-- Open Graph -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://sadvampire.com/">
     <meta property="og:title" content="Sad Vampire">
@@ -32,24 +30,43 @@
     >
     <meta
         property="og:image:alt"
-        content="A sad vampire splash page with two sad vampire characters under a moonlit sky."
+        content="Two sad vampire characters beneath a moonlit purple sky."
+    >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Cormorant+Garamond:wght@500&display=swap"
+        rel="stylesheet"
     >
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <main class="poster" aria-labelledby="site-title">
-        <section class="sr-only">
+    <main class="page">
+        <section class="artwork" aria-hidden="true"></section>
+
+        <section class="content" aria-labelledby="site-title">
             <h1 id="site-title">Sad Vampire</h1>
-            <p>Same eternal pain. Different century.</p>
-            <p>Coming soon.</p>
-            <p>I need a few more centuries to get this right.</p>
+
+            <p class="tagline">
+                Same eternal pain.<br>
+                Different century.
+            </p>
+
+            <div class="divider" aria-hidden="true">
+                <span>◆</span>
+            </div>
+
+            <p class="coming-soon">Coming Soon</p>
+
+            <p class="subtitle">
+                I need a few more centuries<br>
+                to get this right.
+            </p>
         </section>
-
-        <footer>
-
-        </footer>
     </main>
 </body>
 </html>
